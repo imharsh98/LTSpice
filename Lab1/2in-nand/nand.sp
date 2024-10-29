@@ -26,7 +26,7 @@ vb		b		0		pulse(0	1.8	5n		0.01n	0.01n	9.99n	20n)
 .meas tran delay_time TRIG v(a) VAL=0.6 RISE=1 TARG v(out) VAL=0.6 FALL=1
 
 * Measure average power consumption
-.meas tran power_avg AVG power
+.meas tran power_avg param='i(vvdd) * v(vdd)'
 
 * Measure Power-Delay-Product (PDP)
 .meas tran pdp PARAM='power_avg*delay_time'
