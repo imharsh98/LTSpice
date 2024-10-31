@@ -1,0 +1,91 @@
+Questionable use of curly braces in ".meas tran pdp param={power*delay}"
+    Error: undefined symbol in: "[power]*delay"
+Circuit: * 3-input Pseudo-NMOS XOR (frequency sweep with fixed c=0.05p)
+
+Vgnd: both pins shorted together -- ignoring.
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter CTA
+Ignoring BSIM parameter CTP
+Ignoring BSIM parameter PTA
+Ignoring BSIM parameter PTP
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter ACM
+Ignoring BSIM parameter LDIF
+Ignoring BSIM parameter HDIF
+Ignoring BSIM parameter CTP
+Ignoring BSIM parameter PTP
+Ignoring BSIM parameter CTA
+Ignoring BSIM parameter PTA
+Ignoring BSIM parameter TLEVC
+Error on line 10 : .model p_18.1 pmos  level = 4.9000e+01 mobmod = 3.0000e+00  version = 3.2000e+00 capmod = 2.0000e+00  binunit = 1.0000e+00 nqsmod = 0.0000e+00  noimod = 1.0000e+00  tox =  4.2e-009  toxm = 4.2000e-09  xj = 1.0000e-07 nch = 6.2310e+17  ngate = 1.0000e+23  vth0 =  -0.4555  k1 = 5.7040e-01  k2 = 6.9730e-03 k3 = -2.8330e+00  k3b = 1.3260e+00 w0 = -1.9430e-07  nlx = 2.5300e-07 dvt0 = 4.8850e-01  dvt1 = 7.5780e-02 dvt2 = 1.1870e-01  dvt0w = -1.2610e-01 dvt1w = 2.4790e+04  dvt2w = 6.9150e-01 lint = -1.0410e-08  wint = -1.5250e-07 dwg = -1.2510e-07  dwb = -1.0390e-07 u0 =  124.5   ua = 1.5400e-09 ub = 2.6460e-19  uc = -9.5870e-02 vsat = 5.3400e+04  a0 = 1.3500e+00 ags = 3.8180e-01  b0 = -3.0880e-07 b1 = 0.0000e+00  keta = 1.0440e-02 a1 = 0.0000e+00  a2 = 1.0000e+00 voff = -1.0730e-01  nfactor = 1.5350e-00 cit = -1.0670e-03  cdsc = 7.5780e-04 cdscd = -2.8830e-05  cdscb = 1.0000e-04 eta0 = 1.0710e+00  etab = -9.2910e-01 dsub = 1.9191e+00  pclm = 2.6530e+00 pdiblc1 = 0.0000e+00  pdiblc2 = 5.0000e-06 pdiblcb = 0.0000e+00  drout = 1.4570e+00 pscbe1 = 4.8660e+08  pscbe2 = 2.8000e-07 pvag = 1.2620e+00  rdsw = 7.9210e+02 prwg = 0.0000e+00  prwb = 0.0000e+00  alpha0 = 0.0000e+00 alpha1 = 0.0000e+00  beta0 = 3.0000e+01  cgdo =  2.054e-010  cgbo = 0.0000e+00  cgso =  2.054e-010  xpart = 1.0000e+00  cf = 1.5330e-10 dlc = 7.0100e-08  cgsl = 0.0000e+00 cgdl = 0.0000e+00  ckappa = 6.0000e-01  clc = 1.0000e-07 cle = 6.0000e-01  dwc = 0.0000e+00  vfbcv = -1.0000e+00 noff = 1.0000e+00  voffcv = 0.0000e+00 acde = 1.0000e+00  moin = 1.5000e+01  noia = 1.0000e+20 noib = 5.0000e+04  noic = -1.4000e-12 em = 4.2000e+07  af = 1.0000e+00 ef = 1.0000e+00  kf = 0.0000e+00  lmin = 1.8000e-07 lmax = 5.0000e-05  wmin = 2.5000e-07 wmax = 1.0000e-04  xl =  -2e-009  xw =  0   js = 3.0000e-06 jsw = 4.2200e-11  cj =  0.00124  mj = 3.9500e-01  pb = 7.6200e-01 cjsw =  1.74e-010   mjsw = 3.2400e-01  tnom = 2.5000e+01 ute = -4.4840e-01  kt1 = -2.2940e-01 kt1l = -8.2040e-09  kt2 = -9.4870e-03 ua1 = 4.5710e-09  ub1 = -6.0260e-18 uc1 = -9.8500e-02  at = 1.2030e+04 prt = 0.0000e+00  xti = 3.0000e+00  ww = 1.2360e-14 lw = -2.8730e-16  ll = 6.6350e-15  wl = 0.0000e+00 wln = 1.0000e+00  wwn = 1.0000e+00  wwl = 0.0000e+00  lln = 1.0000e+00  lwn = 1.0000e+00 lwl = 0.0000e+00  llc = -1.3100e-14 lwc = 0.0000e+00  lwlc = 0.0000e+00 wlc = 0.0000e+00  wwc = 0.0000e+00 wwlc = 0.0000e+00  lvth0 =  0.0044  wvth0 =  -0.0148   pvth0 =  0.0032  lnlx = -1.5840e-08  wrdsw = 1.0070e+01 weta0 = 0.0000e+00  wetab = 0.0000e+00 wpclm = 0.0000e+00  wua = 2.6300e-09 lua = -8.2530e-11  pua = 5.8550e-11 wub = 0.0000e+00  lub = 0.0000e+00 pub = 0.0000e+00  wuc = 0.0000e+00 luc = 0.0000e+00  puc = 0.0000e+00 wvoff = -9.8160e-03  lvoff = -9.8710e-04 pvoff = -9.8330e-05  wa0 = -4.8070e-02 la0 = -2.8100e-01  pa0 = 8.6610e-02 wags = -4.2770e-02  lags = 4.4540e-02 pags = -4.0760e-02  wketa = 0.0000e+00 lketa = -1.2000e-02  pketa = 0.0000e+00 wute = -2.6820e-01  lute = 0.0000e+00 pute = 0.0000e+00  wvsat = -1.4200e+04 lvsat = 0.0000e+00  pvsat =  -434  lpdiblc2 = 3.0120e-03  wat = -6.4050e+03 wprt = 2.2660e+02  n = 1.0000e+00 php = 6.6500e-01  cta = 1.0000e-03 ctp = 7.5300e-04  pta = 1.5500e-03 ptp = 1.2400e-03  acm = 3.0000e+00 ldif = 8.0000e-08  rsh = 8.0000e+00 rd = 0.0000e+00  rsc = 0.0000e+00 rdc = 0.0000e+00  hdif = 2.6000e-07 rs = 0.0000e+00
+	* Unrecognized parameter "rsc" -- ignored
+	* Unrecognized parameter "rdc" -- ignored
+Error on line 5 : .model n_18.1 nmos  level = 4.9000e+01 version = 3.2000e+00  binunit = 1.0000e+00 mobmod = 1.0000e+00  capmod = 2.0000e+00 nqsmod = 0.0000e+00  noimod = 1.0000e+00  tox =  4.2e-009  toxm = 4.2000e-09  xj = 1.6000e-07 nch = 3.7446e+17  rsh = 8.0000e+00 ngate = 1.0000e+23  vth0 =  0.3075  k1 = 4.5780e-01  k2 = -2.6380e-02 k3 = -1.0880e+01  k3b = 2.3790e-01 w0 = -8.8130e-08  nlx = 4.2790e-07 dvt0 = 4.0420e-01  dvt1 = 3.2370e-01 dvt2 = -8.6020e-01  dvt0w = 3.8300e-01 dvt1w = 6.0000e+05  dvt2w = -2.5000e-02 lint = 1.5870e-08  wint = 1.0220e-08 dwg = -3.3960e-09  dwb = 1.3460e-09 u0 =  324.1   ua = -9.2010e-10 ub = 1.9070e-18  uc = 4.3550e-11 vsat = 7.2580e+04  a0 = 1.9300e+00 ags = 5.0720e-01  b0 = 1.4860e-06 b1 = 9.0640e-06  keta = 1.7520e-02 a1 = 0.0000e+00  a2 = 1.0000e+00 voff = -1.0880e-01  nfactor = 1.0380e+00 cit = -1.5110e-03  cdsc = 2.2750e-03 cdscd = -5.0000e-04  cdscb = 8.2410e-04 eta0 = 1.0040e-03  etab = -1.4590e-03 dsub = 1.5920e-03  pclm = 1.0910e+00 pdiblc1 = 3.0610e-03  pdiblc2 = 1.0000e-06 pdiblcb = 0.0000e+00  drout = 1.5920e-03 pscbe1 = 4.8660e+08  pscbe2 = 2.8000e-07 pvag = -2.9580e-01  rdsw = 4.9050e+00 prwg = 0.0000e+00  prwb = 0.0000e+00 wr = 1.0000e+00  alpha0 = 0.0000e+00 alpha1 = 0.0000e+00  beta0 = 3.0000e+01  xpart = 1.0000e+00 cgso =  2.35e-010   cgdo =  2.35e-010  cgbo = 0.0000e+00  cgsl = 0.0000e+00 cgdl = 0.0000e+00  ckappa = 6.0000e-01 cf = 1.5330e-10  clc = 1.0000e-07 cle = 6.0000e-01  dlc = 4.0000e-08 dwc = 0.0000e+00  vfbcv = -1.0000e+00 noff = 1.0000e+00  voffcv = 0.0000e+00 acde = 1.0000e+00  moin = 1.5000e+01  noia = 1.0000e+20 noib = 5.0000e+04  noic = -1.4000e-12 em = 4.2000e+07  af = 1.0000e+00 ef = 1.0000e+00  kf = 0.0000e+00  lmin = 1.8000e-07 lmax = 5.0000e-05  wmin = 2.5000e-07 wmax = 1.0000e-04  xl =  -1.05e-008  xw =  0   js = 1.0000e-06 jsw = 7.0000e-11  cj =  0.00103  mj = 4.4300e-01  pb = 8.2300e-01 cjsw =  1.34e-010   mjsw = 3.3000e-01  tnom = 2.5000e+01 ute = -1.1860e+00  kt1 = -2.2550e-01 kt1l = -4.2750e-09  kt2 = -2.5270e-02 ua1 = 2.2530e-09  ub1 = -2.6730e-18 uc1 = -3.8320e-11  at = 1.4490e+04 prt = -1.0180e+01  xti = 3.0000e+00  wl = 0.0000e+00 wln = 1.0000e+00  ww = 7.2620e-16 wwn = 1.0000e+00  wwl = 0.0000e+00 ll = -1.0620e-15  lln = 1.0000e+00 lw = 2.9960e-15  lwn = 1.0000e+00 lwl = 0.0000e+00  llc = -6.6400e-15 lwc = 0.0000e+00  lwlc = 0.0000e+00 wlc = 0.0000e+00  wwc = 0.0000e+00 wwlc = 0.0000e+00  lvth0 =  -0.001  wvth0 =  0.06027   pvth0 =  0  lnlx = -2.8540e-08  wnlx = 0.0000e+00 pnlx = 0.0000e+00  wua = -1.8800e-11 wu0 =  0.54   pub = 3.8000e-20 pw0 = 1.3000e-09  wrdsw = 0.0000e+00 weta0 = 0.0000e+00  wetab = 0.0000e+00 leta0 = 1.5740e-03  letab = 0.0000e+00 peta0 = 0.0000e+00  petab = 0.0000e+00 wpclm = 0.0000e+00  wvoff = -4.0780e-04 lvoff = -4.2080e-03  pvoff = -3.7880e-04 wa0 = -4.7310e-02  la0 = -4.6670e-01 pa0 = -2.6490e-02  wags = 4.2420e-03 lags = 3.0280e-01  pags = 0.0000e+00 wketa = 0.0000e+00  lketa = -1.9420e-02 pketa = 0.0000e+00  wute = 6.3730e-02 lute = 0.0000e+00  pute = 0.0000e+00 wvsat = 5.0660e+03  lvsat = 0.0000e+00 pvsat =  0   lpdiblc2 = -4.7520e-03 wat = 7.0670e+03  wprt = 0.0000e+00 acm = 3.0000e+00  ldif = 8.0000e-08 hdif = 2.6000e-07  n = 1.0000e+00 php = 8.8000e-01  cjgate =  5e-010  ctp = 9.2400e-04  ptp = 9.2400e-04 cta = 9.2900e-04  pta = 1.5800e-03 elm = 5.0000e+00  tlevc = 1.0000e+00
+	* Unrecognized parameter "cjgate" -- ignored
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.2000e+00
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.2000e+00
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.2000e+00
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.2000e+00
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+.step freq_mult=1
+.step freq_mult=2
+.step freq_mult=4
+.step freq_mult=8
+.step freq_mult=16
+
+
+Measurement: delay
+  step	delay	FROM	TO
+     1	4.04588e-008	1.5e-010	4.06088e-008
+     2	2.05037e-008	1.5e-010	2.06537e-008
+     3	1.05235e-008	1.5e-010	1.06735e-008
+     4	5.53262e-009	1.5e-010	5.68262e-009
+     5	3.03715e-009	1.5e-010	3.18715e-009
+
+Measurement: power
+  step	AVG(v(vdd)*i(vvdd)*-1)	FROM	TO
+     1	0.000121681	0	6.4e-007
+     2	0.000124077	0	3.2e-007
+     3	0.000128657	0	1.6e-007
+     4	0.00013788	0	8e-008
+     5	0.00015632	0	4e-008
+
+Measurement: pdp
+  step	(power*delay)
+     1	4.92308e-012
+     2	2.54403e-012
+     3	1.35392e-012
+     4	7.62838e-013
+     5	4.74767e-013
+
+
+Date: Thu Oct 31 19:28:15 2024
+Total elapsed time: 1.241 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4066
+traniter = 4030
+tranpoints = 1589
+accept = 1451
+rejected = 138
+matrix size = 20
+fillins = 10
+solver = Normal
+Matrix Compiler1: 1.90 KB object code size  0.6/0.4/[0.3]
+Matrix Compiler2: 2.23 KB object code size  0.4/0.8/[0.4]
+
