@@ -31,8 +31,8 @@ mn_sft1  sf_tail1  bias_sf  gnd  gnd  N_18  l=0.18u  w=2u
 mn_sft2  sf_tail2  bias_sf  gnd  gnd  N_18  l=0.18u  w=2u
 
 * Replica bias circuit for load devices
-mp_rb   rb_out  bias_ld  rb_out  vdd  P_18  l=0.18u  w=1u
-mn_rb   rb_out  bias_scl tail_rb gnd  N_18  l=0.18u  w=1u
+mp_rb   rb_out  bias_ld  vdd  vdd  P_18  l=0.18u  w=1u
+mn_rb   rb_out  vdd tail_rb gnd  N_18  l=0.18u  w=1u
 mn_rbt  tail_rb bias_scl gnd     gnd  N_18  l=0.18u  w=2u
 .ends
 
@@ -40,7 +40,8 @@ mn_rbt  tail_rb bias_scl gnd     gnd  N_18  l=0.18u  w=2u
 xscl a_p a_n out bias_scl bias_sf scl_sfb
 
 * Load capacitance
-cload out gnd 50f
+cload out gnd {cval}
+* cload out gnd 60f
 
 * Bias voltage sources
 vbias_scl bias_scl 0 0.4
@@ -48,7 +49,7 @@ vbias_sf  bias_sf  0 0.4
 vbias_ld  bias_ld  0 0.8
 
 * Supply voltage
-vdd vdd 0 0.6
+vdd vdd 0 0.5
 vgnd gnd 0 0
 
 * Input signals with parametric frequency scaling
@@ -62,7 +63,7 @@ va_n a_n 0 pulse(0 0.6 0.1n 0.1n 0.1n 40n 80n)
 .param duty = 39.9n
 
 * Measurements
-.meas tran delay trig v(a_p) val=0.3 rise=1 targ v(out) val=-0.0005 rise=1
+.meas tran delay trig v(a_p) val=0.3 fall=1 targ v(out) val=0.0001 rise=1
 
 .meas tran power avg v(vdd)*i(vdd)*-1
 
@@ -73,6 +74,8 @@ va_n a_n 0 pulse(0 0.6 0.1n 0.1n 0.1n 40n 80n)
 .tran 0.1n 160n
 
 * Parameter sweep for frequency multiplication
-.step param freq_mult list 1 2 4 8 16
+* .step param freq_mult list 1 2 4 8 16
+
+.step param cval 20f 90f 10f
 
 .end
