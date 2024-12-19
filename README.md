@@ -2,6 +2,8 @@
 
 Repo containing all files related to LT SPICE lab at CGU 1st Sem
 
+Each lab exercise is written using a .sp file which when simulated using the LTSpice tool produces .raw, .op.raw and a .log file. We are generally only interested in the .log file.
+
 A guide to the programs:
 
 * This line represents the gate which needs to be constructed
@@ -54,3 +56,12 @@ Cload out 0 0.02p
 .meas tran pdp PARAM='power_avg*delay_time'
 
 .end
+
+===========================================
+List of folders in this repo and their purpose:
+
+practice: Just hands-on practice. Nothing new in here.
+practice-questions: Solutions to the practice questions problems shared.
+reference answers: other students' solutions to certain questions 
+presentation: files related to the exam presentation on a research paper
+LTspiceResults.xlsx: Excel file containing the graphs for different problems.

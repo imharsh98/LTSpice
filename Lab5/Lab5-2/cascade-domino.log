@@ -1,8 +1,4 @@
-Questionable use of curly braces in ".meas tran power param={i(vvdd)*v(vdd)*-1}"
-    Error: undefined symbol in: "[i](vvdd)*v(vdd)*-1"
-Questionable use of curly braces in ".meas tran pdp param={power*max(delay_s7,delay_co7)}"
-    Error: undefined symbol in: "[power]*max(delay_s7,delay_co7)"
-Circuit: * Lab 6-1-b: 8-bit Ripple Carry Adder analysis
+Circuit: * Cascaded Dynamic NAND/AND Circuit
 
 Vgnd: both pins shorted together -- ignoring.
 Ignoring BSIM parameter XL
@@ -29,22 +25,6 @@ Error on line 10 : .model p_18.1 pmos  level = 4.9000e+01 mobmod = 3.0000e+00  v
 	* Unrecognized parameter "rdc" -- ignored
 Error on line 5 : .model n_18.1 nmos  level = 4.9000e+01 version = 3.2000e+00  binunit = 1.0000e+00 mobmod = 1.0000e+00  capmod = 2.0000e+00 nqsmod = 0.0000e+00  noimod = 1.0000e+00  tox =  4.2e-009  toxm = 4.2000e-09  xj = 1.6000e-07 nch = 3.7446e+17  rsh = 8.0000e+00 ngate = 1.0000e+23  vth0 =  0.3075  k1 = 4.5780e-01  k2 = -2.6380e-02 k3 = -1.0880e+01  k3b = 2.3790e-01 w0 = -8.8130e-08  nlx = 4.2790e-07 dvt0 = 4.0420e-01  dvt1 = 3.2370e-01 dvt2 = -8.6020e-01  dvt0w = 3.8300e-01 dvt1w = 6.0000e+05  dvt2w = -2.5000e-02 lint = 1.5870e-08  wint = 1.0220e-08 dwg = -3.3960e-09  dwb = 1.3460e-09 u0 =  324.1   ua = -9.2010e-10 ub = 1.9070e-18  uc = 4.3550e-11 vsat = 7.2580e+04  a0 = 1.9300e+00 ags = 5.0720e-01  b0 = 1.4860e-06 b1 = 9.0640e-06  keta = 1.7520e-02 a1 = 0.0000e+00  a2 = 1.0000e+00 voff = -1.0880e-01  nfactor = 1.0380e+00 cit = -1.5110e-03  cdsc = 2.2750e-03 cdscd = -5.0000e-04  cdscb = 8.2410e-04 eta0 = 1.0040e-03  etab = -1.4590e-03 dsub = 1.5920e-03  pclm = 1.0910e+00 pdiblc1 = 3.0610e-03  pdiblc2 = 1.0000e-06 pdiblcb = 0.0000e+00  drout = 1.5920e-03 pscbe1 = 4.8660e+08  pscbe2 = 2.8000e-07 pvag = -2.9580e-01  rdsw = 4.9050e+00 prwg = 0.0000e+00  prwb = 0.0000e+00 wr = 1.0000e+00  alpha0 = 0.0000e+00 alpha1 = 0.0000e+00  beta0 = 3.0000e+01  xpart = 1.0000e+00 cgso =  2.35e-010   cgdo =  2.35e-010  cgbo = 0.0000e+00  cgsl = 0.0000e+00 cgdl = 0.0000e+00  ckappa = 6.0000e-01 cf = 1.5330e-10  clc = 1.0000e-07 cle = 6.0000e-01  dlc = 4.0000e-08 dwc = 0.0000e+00  vfbcv = -1.0000e+00 noff = 1.0000e+00  voffcv = 0.0000e+00 acde = 1.0000e+00  moin = 1.5000e+01  noia = 1.0000e+20 noib = 5.0000e+04  noic = -1.4000e-12 em = 4.2000e+07  af = 1.0000e+00 ef = 1.0000e+00  kf = 0.0000e+00  lmin = 1.8000e-07 lmax = 5.0000e-05  wmin = 2.5000e-07 wmax = 1.0000e-04  xl =  -1.05e-008  xw =  0   js = 1.0000e-06 jsw = 7.0000e-11  cj =  0.00103  mj = 4.4300e-01  pb = 8.2300e-01 cjsw =  1.34e-010   mjsw = 3.3000e-01  tnom = 2.5000e+01 ute = -1.1860e+00  kt1 = -2.2550e-01 kt1l = -4.2750e-09  kt2 = -2.5270e-02 ua1 = 2.2530e-09  ub1 = -2.6730e-18 uc1 = -3.8320e-11  at = 1.4490e+04 prt = -1.0180e+01  xti = 3.0000e+00  wl = 0.0000e+00 wln = 1.0000e+00  ww = 7.2620e-16 wwn = 1.0000e+00  wwl = 0.0000e+00 ll = -1.0620e-15  lln = 1.0000e+00 lw = 2.9960e-15  lwn = 1.0000e+00 lwl = 0.0000e+00  llc = -6.6400e-15 lwc = 0.0000e+00  lwlc = 0.0000e+00 wlc = 0.0000e+00  wwc = 0.0000e+00 wwlc = 0.0000e+00  lvth0 =  -0.001  wvth0 =  0.06027   pvth0 =  0  lnlx = -2.8540e-08  wnlx = 0.0000e+00 pnlx = 0.0000e+00  wua = -1.8800e-11 wu0 =  0.54   pub = 3.8000e-20 pw0 = 1.3000e-09  wrdsw = 0.0000e+00 weta0 = 0.0000e+00  wetab = 0.0000e+00 leta0 = 1.5740e-03  letab = 0.0000e+00 peta0 = 0.0000e+00  petab = 0.0000e+00 wpclm = 0.0000e+00  wvoff = -4.0780e-04 lvoff = -4.2080e-03  pvoff = -3.7880e-04 wa0 = -4.7310e-02  la0 = -4.6670e-01 pa0 = -2.6490e-02  wags = 4.2420e-03 lags = 3.0280e-01  pags = 0.0000e+00 wketa = 0.0000e+00  lketa = -1.9420e-02 pketa = 0.0000e+00  wute = 6.3730e-02 lute = 0.0000e+00  pute = 0.0000e+00 wvsat = 5.0660e+03  lvsat = 0.0000e+00 pvsat =  0   lpdiblc2 = -4.7520e-03 wat = 7.0670e+03  wprt = 0.0000e+00 acm = 3.0000e+00  ldif = 8.0000e-08 hdif = 2.6000e-07  n = 1.0000e+00 php = 8.8000e-01  cjgate =  5e-010  ctp = 9.2400e-04  ptp = 9.2400e-04 cta = 9.2900e-04  pta = 1.5800e-03 elm = 5.0000e+00  tlevc = 1.0000e+00
 	* Unrecognized parameter "cjgate" -- ignored
-WARNING: Less than two connections to node RCA8:FA0:XOR1:N1_.  This node is used by M:RCA8:FA0:XOR1:N3.
-WARNING: Less than two connections to node RCA8:FA0:XOR2:N1_.  This node is used by M:RCA8:FA0:XOR2:N3.
-WARNING: Less than two connections to node RCA8:FA1:XOR1:N1_.  This node is used by M:RCA8:FA1:XOR1:N3.
-WARNING: Less than two connections to node RCA8:FA1:XOR2:N1_.  This node is used by M:RCA8:FA1:XOR2:N3.
-WARNING: Less than two connections to node RCA8:FA2:XOR1:N1_.  This node is used by M:RCA8:FA2:XOR1:N3.
-WARNING: Less than two connections to node RCA8:FA2:XOR2:N1_.  This node is used by M:RCA8:FA2:XOR2:N3.
-WARNING: Less than two connections to node RCA8:FA3:XOR1:N1_.  This node is used by M:RCA8:FA3:XOR1:N3.
-WARNING: Less than two connections to node RCA8:FA3:XOR2:N1_.  This node is used by M:RCA8:FA3:XOR2:N3.
-WARNING: Less than two connections to node RCA8:FA4:XOR1:N1_.  This node is used by M:RCA8:FA4:XOR1:N3.
-WARNING: Less than two connections to node RCA8:FA4:XOR2:N1_.  This node is used by M:RCA8:FA4:XOR2:N3.
-WARNING: Less than two connections to node RCA8:FA5:XOR1:N1_.  This node is used by M:RCA8:FA5:XOR1:N3.
-WARNING: Less than two connections to node RCA8:FA5:XOR2:N1_.  This node is used by M:RCA8:FA5:XOR2:N3.
-WARNING: Less than two connections to node RCA8:FA6:XOR1:N1_.  This node is used by M:RCA8:FA6:XOR1:N3.
-WARNING: Less than two connections to node RCA8:FA6:XOR2:N1_.  This node is used by M:RCA8:FA6:XOR2:N3.
-WARNING: Less than two connections to node RCA8:FA7:XOR1:N1_.  This node is used by M:RCA8:FA7:XOR1:N3.
-WARNING: Less than two connections to node RCA8:FA7:XOR2:N1_.  This node is used by M:RCA8:FA7:XOR2:N3.
 Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.2000e+00
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
@@ -54,29 +34,50 @@ Warning: Ps = 0 is less than W.
 Warning: LTspice supports BSIM3 version 3.3.0. Your model specified an unrecognized version: 3.2000e+00
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
-Direct Newton iteration for .op point succeeded.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
 
-delay_s7=3.6536e-010 FROM 2.105e-008 TO 2.14154e-008
-delay_co7=2.05073e-008 FROM 2.105e-008 TO 4.15573e-008
-power: (i(vvdd)*v(vdd)*-1)=5.75936e-006
-pdp: (power*max(delay_s7,delay_co7))=1.18109e-013
+
+delay1=2.20175e-008 FROM 1.5e-010 TO 2.21675e-008
+
+Measurement "delay2" FAIL'ed
+delay3=2.0402e-009 FROM 1.5e-010 TO 2.1902e-009
+
+Measurement "delay4" FAIL'ed
 
 
-Date: Thu Dec 19 21:54:53 2024
-Total elapsed time: 1.331 seconds.
+Date: Thu Dec 19 22:07:38 2024
+Total elapsed time: 0.350 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 5044
-traniter = 5008
-tranpoints = 1837
-accept = 1615
-rejected = 222
-matrix size = 196
-fillins = 34
+totiter = 4098
+traniter = 3692
+tranpoints = 1493
+accept = 1379
+rejected = 114
+matrix size = 30
+fillins = 0
 solver = Normal
-Thread vector: 644.3/179.9[4] 133.3/42.0[4] 39.6/25.6[4] 2.1/16.2[1]  2592/500
-Matrix Compiler1: 19.63 KB object code size  23.8/9.7/[3.7]
-Matrix Compiler2: 23.97 KB object code size  11.7/11.6/[2.6]
+Thread vector: 25.4/16.6[2] 7.4/6.2[2] 2.6/12.0[1] 0.2/2.9[1]  2592/500
+Matrix Compiler1: 1.58 KB object code size  1.0/0.5/[0.2]
+Matrix Compiler2: 2.78 KB object code size  0.5/1.6/[0.4]
 

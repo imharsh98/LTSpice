@@ -109,7 +109,7 @@ VCI CI 0 pulse(1.8 0 1n 0.1n 0.1n 79.9n 160n)
 +                   targ v(s7) val=0.9 rise=1
 .meas tran delay_co7 trig v(a0) val=0.9 rise=1
 +                    targ v(co7) val=0.9 rise=1
-.meas tran power avg p(vvdd)
+.meas tran power param='i(vvdd) * v(vdd)*-1'
 .meas tran pdp param='power*max(delay_s7,delay_co7)'
 
 .end

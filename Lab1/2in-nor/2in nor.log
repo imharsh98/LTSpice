@@ -232,8 +232,8 @@ Measurement: pdp
     46	1.04486e-018
 
 
-Date: Tue Oct 29 17:30:02 2024
-Total elapsed time: 4.297 seconds.
+Date: Thu Dec 19 20:17:18 2024
+Total elapsed time: 5.065 seconds.
 
 tnom = 27
 temp = 27
@@ -246,6 +246,6 @@ rejected = 116
 matrix size = 8
 fillins = 0
 solver = Normal
-Matrix Compiler1:      18 opcodes  0.2/[0.1]/0.1
-Matrix Compiler2: off  [0.1]/0.2/0.2
+Matrix Compiler1: 300 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
 
