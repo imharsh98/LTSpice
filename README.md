@@ -65,3 +65,4 @@ practice-questions: Solutions to the practice questions problems shared.
 reference answers: other students' solutions to certain questions 
 presentation: files related to the exam presentation on a research paper
 LTspiceResults.xlsx: Excel file containing the graphs for different problems.
+exam: folder specific to the LT spice exam held on 20 Dec 2024 at CGU.
